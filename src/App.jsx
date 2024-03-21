@@ -14,8 +14,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Live comments={comments} setComments={setComments} />} />
-          <Route path="/replay" element={<Replay comments={comments} />} />
+          <Route path="/RAI_Assignment/" element={<Live comments={comments} setComments={setComments} />} />
+          <Route path="/RAI_Assignment/replay" element={<Replay comments={comments} />} />
         </Routes>
       </BrowserRouter>
 
